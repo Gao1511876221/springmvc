@@ -17,6 +17,14 @@
 		<log4j.version>1.2.9</log4j.version>
 	</properties>
 	<dependencies>
+        <!--web核心包 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<!-- spring核心包 -->
 		<!-- springframe start -->
 		<dependency>
@@ -117,6 +125,12 @@
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.13</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.4</version>
 		</dependency>
 
 		<!-- 日志文件管理包 -->
